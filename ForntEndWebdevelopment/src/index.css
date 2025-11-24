@@ -1,0 +1,38 @@
+@import "tailwindcss";
+.slick-slide > div{
+    margin: 0 10px;
+}
+.slick-dots li button:before {
+  color: #9CA3AF; /* Tailwind gray-400 */
+  font-size: 10px;
+}
+.slick-dots li.slick-active button:before {
+  color: #3B82F6; /* Tailwind blue-500 */
+}
+.slick-prev::before,
+.slick-next::before {
+  color: white !important; 
+  font-size: 26px !important;
+  opacity: 1 !important;
+}
+/* // <weight>: Use a value from 400 to 700
+// <uniquifier>: Use a unique and descriptive class name */
+.stix-two-text-Font_1{
+  font-family: "STIX Two Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.vast-shadow-regular-Orders {
+  font-family: "Vast Shadow", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: yellow;
+  text-align: center;
+  font-size: 28px;
+}
+.vast-shadow-regular-Navbar{
+  font-family: "Vast Shadow", serif;
+  font-weight: 400;
+  font-style: normal;
+}
