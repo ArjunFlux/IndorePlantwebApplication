@@ -3,6 +3,7 @@ services:
     name: indore-plant-backend
     runtime: node
     plan: free
+    root: BackEndWebdevelopment
     buildCommand: cd BackEndWebdevelopment && npm install
     startCommand: cd BackEndWebdevelopment && npm start
     envVars:
