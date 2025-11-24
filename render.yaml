@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: indore-plant-backend
+    runtime: node
+    plan: free
+    buildCommand: cd BackEndWebdevelopment && npm install
+    startCommand: cd BackEndWebdevelopment && npm start
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: MONGO_CON
+        fromDatabase:
+          name: indore-plant-db
+          property: connectionString
+      - key: JWT_SECRET
+        sync: false
