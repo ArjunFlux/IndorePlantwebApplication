@@ -20,7 +20,7 @@ export default function Order() {
                 {i.NameOfPlant}
               </p>
               <img
-                src="public/graph - Copy.png"
+                src="/graph - Copy.png"
                 alt="rating"
                 className="h-[75px] relative top-[-150px] left-5"
               />
