@@ -34,7 +34,7 @@ function ThirdPage() {
       <div className="flex justify-between items-center px-[35px] pt-[50px] cursor-pointer">
         <div className="h-[43vh] w-[20vw] mt-[80px] shadow-xl shadow-black rounded-2xl bg-green-900 transform hover:translate-y-[-10px] hover:scale-90 hover:shadow-2xl hover:shadow-green-700 transition duration-300">
           <img
-            src="public/photoofPlant1.webp"
+            src="/photoofPlant1.webp"
             alt="Plant for sale"
             className="relative top-[-100px] pb-3"
           />
@@ -57,7 +57,7 @@ function ThirdPage() {
         </div>
         <div className="h-[43vh] w-[20vw] mt-[80px] shadow-xl shadow-black bg-green-900 rounded-2xl transform hover:translate-y-[-10px] hover:scale-90 hover:shadow-2xl hover:shadow-green-800 transition duration-300" id="div1">
           <img
-            src="public/photoofPlant2.webp"
+            src="/photoofPlant2.webp"
             alt="Plant for sale"
             className="relative top-[-100px] pb-3"
           />
@@ -80,7 +80,7 @@ function ThirdPage() {
         </div>
         <div className="h-[43vh] w-[20vw] mt-[80px] shadow-xl shadow-black bg-green-900 rounded-2xl transform hover:translate-y-[-10px] hover:shadow-2xl hover:shadow-green-700 hover:scale-90 transition duration-300" id="div1">
           <img
-            src="public/photoofPlant3.webp"
+            src="/photoofPlant3.webp"
             alt="Plant for sale"
             className="relative top-[-100px] pb-3"
           />
@@ -103,7 +103,7 @@ function ThirdPage() {
         </div>
         <div className="h-[43vh] w-[20vw] mt-[80px] shadow-xl shadow-black bg-green-900 rounded-2xl transform hover:translate-y-[-10px] hover:shadow-2xl hover:shadow-green-700 hover:scale-90 transition duration-300" id="div1">
           <img
-            src="public/photoofPlant4.webp"
+            src="/photoofPlant4.webp"
             alt="Plant for sale"
             className="relative top-[-100px] pb-3"
           />

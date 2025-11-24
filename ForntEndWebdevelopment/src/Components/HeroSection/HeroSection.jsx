@@ -129,7 +129,7 @@ function HeroSection() {
             <TiSocialLinkedin size={25} className="ml-[200px] mt-[-22px] cursor-pointer" />
           </div>
         </div>
-        <img src="public/PhotoofPlant.webp" className="mt-[-130px] h-[80vh] w-[55vw] filter drop-shadow-2xl drop-shadow-green-700 rounded-lg" ref={Part2TagRef}/>
+        <img src="/PhotoofPlant.webp" className="mt-[-130px] h-[80vh] w-[55vw] filter drop-shadow-2xl drop-shadow-green-700 rounded-lg" ref={Part2TagRef}/>
       </div>
     </div>
   );
