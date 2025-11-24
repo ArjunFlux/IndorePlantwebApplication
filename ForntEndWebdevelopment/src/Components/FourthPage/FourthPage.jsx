@@ -80,7 +80,7 @@ function FourthPage() {
   return (
     <div className="h-[90vh] w-full border-b-2 mt-20">
       <img
-        src="public/plant-png-photos-8.png"
+        src="/plant-png-photos-8.png"
         alt="Photo of our plants"
         className="h-[190px] w-[80px] rotate-140 relative top-[-30px] left-[-10px]"ref={ImageTagRef}
       />
@@ -106,7 +106,7 @@ function FourthPage() {
                   </p>
                 </div>
                 <div className=" m-5 flex gap-2 text-yellow-400 text-xl">
-                  <img src="public/Photo1.webp" className="h-[50px]" />
+                  <img src="/Photo1.webp" className="h-[50px]" />
                   <p>{data.NameOfTheCustomer}</p>
                 </div>
                 <p className="ml-[80px] mt-[-35px] text-white text-[15px]">{data.JobPosition}</p>
