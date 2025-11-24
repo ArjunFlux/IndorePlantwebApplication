@@ -25,7 +25,7 @@ export default function Login() {
     }
 
     try {
-      const url = "http://localhost:8080/auth/login";
+      const url = "http://indoreplantwebapplication-2.onrender.com/auth/login";
       const response = await fetch(url, {
         method: "POST",
         headers: {
