@@ -71,7 +71,7 @@ function SecondPage() {
   return (
     <div className='h-[90vh] w-full overflow-hidden border-b-2 mt-20'>
       <div className='flex justify-end items-end'>
-        <img src='public/plant-png-photos-8.png' alt='Photo of a plant' className='h-[200px] w-[100px] rotate-240 mt-[-45px]' ref={ImageTag1}/>
+        <img src='/plant-png-photos-8.png' alt='Photo of a plant' className='h-[200px] w-[100px] rotate-240 mt-[-45px]' ref={ImageTag1}/>
       </div>
       <div className='relative top-[-15%] left-[45%]'>
         <div ref={HeaderTag1}>
@@ -81,7 +81,7 @@ function SecondPage() {
         <div className='relative top-[-70px] left-[-40%]'>
             <GiPlantWatering size={40} ref={ImageTag3} className='transform hover:shadow-xl hover:rounded-xl hover:shadow-green-600 transition duration-100 cursor-pointer'/>
         </div>
-        <img src='public/potted-plant-white-pot_1029445-10490-removebg-preview.png' alt='Photo of our plant' className='relative top-[-10px] left-[-46%] h-[350px] filter drop-shadow-xl drop-shadow-black rounded-lg transform hover:drop-shadow-xl hover:drop-shadow-green-600 transition duration-150 cursor-pointer' ref={ImageTag2}/>
+        <img src='/potted-plant-white-pot_1029445-10490-removebg-preview.png' alt='Photo of our plant' className='relative top-[-10px] left-[-46%] h-[350px] filter drop-shadow-xl drop-shadow-black rounded-lg transform hover:drop-shadow-xl hover:drop-shadow-green-600 transition duration-150 cursor-pointer' ref={ImageTag2}/>
         <div ref={HeaderTag2}>
             <p className='mt-[-280px] ml-[-35px] text-3xl text-white font-serif italic font-bold'>Make your <span className='text-yellow-400'>origanic</span> <br/>garden</p>
             <p className='ml-[-35px] text-white font-serif italic pr-3 pt-3'>At IndorePlant, we believe every home deserves a touch of greenery.<br/> Founded in 2009, our mission is to make indoor gardening simple, sustainable, and joyful.<br/> From air-purifying snake plants to statement fiddle-leaf figs, we curate plants<br/> that thrive in your space—no green thumb required!</p>

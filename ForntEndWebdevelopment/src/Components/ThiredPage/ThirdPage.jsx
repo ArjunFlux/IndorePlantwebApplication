@@ -45,7 +45,7 @@ function ThirdPage() {
             Snake Plant{" "}
           </p>
           <img
-            src="public/graph - Copy.png"
+            src="/graph - Copy.png"
             alt="rating"
             className="h-[75px] relative top-[-150px] left-5"
           />
@@ -68,7 +68,7 @@ function ThirdPage() {
             Fiddle-Leaf Fig{" "}
           </p>
           <img
-            src="public/graph - Copy.png"
+            src="/graph - Copy.png"
             alt="rating"
             className="h-[75px] relative top-[-150px] left-5"
           />
@@ -91,7 +91,7 @@ function ThirdPage() {
             Peace Lily{" "}
           </p>
           <img
-            src="public/graph - Copy.png"
+            src="/graph - Copy.png"
             alt="rating"
             className="h-[75px] relative top-[-150px] left-5"
           />
@@ -114,7 +114,7 @@ function ThirdPage() {
             Areca Palm{" "}
           </p>
           <img
-            src="public/graph - Copy.png"
+            src="/graph - Copy.png"
             alt="rating"
             className="h-[75px] relative top-[-150px] left-5"
           />
