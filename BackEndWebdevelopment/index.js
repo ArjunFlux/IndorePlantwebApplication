@@ -11,9 +11,19 @@ const PORT = process.env.PORT || 8080;
 
 require('./Models/db');
 
+const allowedLocal = 'http://localhost:5173';
+const allowedFrontend = process.env.FRONTEND_URL || 'https://indoreplantwebapplicationfrontend-t5fw.onrender.com';
+const allowedOrigins = [allowedLocal, allowedFrontend];
+
 app.use(cors({
-  origin: 'http://localhost:5173',
-  methods: ['GET', 'POST'],
+  origin: function(origin, callback) {
+    if (!origin || allowedOrigins.indexOf(origin) !== -1) {
+      callback(null, true);
+    } else {
+      callback(new Error('CORS policy: origin not allowed'), false);
+    }
+  },
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
 
